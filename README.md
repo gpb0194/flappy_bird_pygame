@@ -26,9 +26,7 @@ Clone do Clássico Flappy Bird, desenvolvido como primeiro projeto pessoal com f
 
 ## Instalação
 1. Clone o repositório:
-   ```
-      git clone https://github.com/seu-usuario/flappy-bird-pygame.git
-   ```
+   '''bash git clone https://github.com/seu-usuario/flappy-bird-pygame.git '''
    
 2. Acesse a pasta:
    ```
