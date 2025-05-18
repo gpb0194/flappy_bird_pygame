@@ -1,6 +1,6 @@
 import pygame #### type: ignore # biblioteca de jogos do Python
 import os # integra o codigo com o com arquivos do computador
-import random # gera numeros aleatórios
+import random # gera numeros aleatórios  
 
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT = 800
