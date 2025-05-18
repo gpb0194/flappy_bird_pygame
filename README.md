@@ -1,6 +1,5 @@
 # Flappy_bird em Python com Pygame
 Clone do Clássico Flappy Bird, desenvolvido como primeiro projeto pessoal com foco em estruturação de código, Pygame, e versionamento com Git. Todo código foi modularizado e adaptado a partir de um tutorial guiado, com melhorias e organização feitas por mim.
-feito em Python com Pygame.
 
 ## Tecnologias usadas
 - **Python 3.13+**
@@ -9,7 +8,7 @@ feito em Python com Pygame.
 - **GitHub** - hospedagem e documentação
 
 ## Estrutura do projeto
-'''bash
+   ```
    flappy_bird_pygame/
    ├── src/
    │   ├── _bird.py           # Classe Bird (controle do personagem)
@@ -23,38 +22,36 @@ feito em Python com Pygame.
    │
    ├── README.md              # Documentação do projeto
    └── requirements.txt       # Dependências do projeto
-'''
+   ```
 
 ## Instalação
 1. Clone o repositório:
-   '''bash
+   ```
       git clone https://github.com/seu-usuario/flappy-bird-pygame.git
-   '''
+   ```
    
 2. Acesse a pasta:
-   '''bash
+   ```
       cd flappy-bird-pygame
-   '''
+   ```
 
 3. Crie e ative um ambiente virtual (opcional, mas recomendado):
-   '''bash
+   ```
       python -m venv venv
       source venv/bin/activate  # no Linux/macOS
       venv\Scripts\activate     # no Windows
-   '''
+   ```
+
 4. Instale as dependências:
-   '''bash
+   ```
       pip install -r requirements.txt
-   '''
-
-
-
+   ```
 
 ## Como jogar
 - Execute o script principal:
-   '''bash
+   ```
       python src/Flappy_bird.py
-   '''
+   ```
 - Precione **ESPAÇO** para fazer o pássaro voar.
 - Evite colidir com os canos e o chão.
 - A pontuação aparece no canto superior direito.
