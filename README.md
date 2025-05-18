@@ -84,3 +84,4 @@ Sinta-se à vontade para abrir uma issue ou um pull request.
 
 **Autor:** Gabriel Pereira Barbosa
 **LinkedIn:** https://linkedin.com/in/gpb0194/
+
