@@ -26,21 +26,23 @@ Clone do Clássico Flappy Bird, desenvolvido como primeiro projeto pessoal com f
 
 ## Instalação
 1. Clone o repositório:
-   '''bash git clone https://github.com/seu-usuario/flappy-bird-pygame.git '''
+   ```
+   git clone https://github.com/seu-usuario/flappy-bird-pygame.git
+   ```
    
-2. Acesse a pasta:
+3. Acesse a pasta:
    ```
       cd flappy-bird-pygame
    ```
 
-3. Crie e ative um ambiente virtual (opcional, mas recomendado):
+4. Crie e ative um ambiente virtual (opcional, mas recomendado):
    ```
       python -m venv venv
       source venv/bin/activate  # no Linux/macOS
       venv\Scripts\activate     # no Windows
    ```
 
-4. Instale as dependências:
+5. Instale as dependências:
    ```
       pip install -r requirements.txt
    ```
@@ -65,10 +67,11 @@ Clone do Clássico Flappy Bird, desenvolvido como primeiro projeto pessoal com f
 - Documentação para repositórios públicos.
 
 ## Melhorias futuras
-- Implementar do telas (inicial, fim de jogo, Ranking de placares);
-- Implementar de niveis de dificuldade;
-- criar menus (principal e de configurações);
-- 
+- Implementar do telas (inicial, fim de jogo, Ranking de placares).
+- Implementar de niveis de dificuldade.
+- Criar menus (principal e de configurações).
+- Implementar sons.
+- Aumentar a resolução.
 
 ## Contribuições
 - Este é um projeto pessoal de estudo, mas sugestões ou melhorias são bem-vindas.
