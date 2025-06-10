@@ -1,9 +1,9 @@
-import pygame #### type: ignore # biblioteca de jogos do Python
+import pygame # biblioteca de jogos do Python
 import os # integra o codigo com o com arquivos do computador
 import random # gera numeros aleatórios  
-from _bird import Bird
-from _floor import Floor
-from _pipe import Pipe
+from _bird import Bird # Importa um elemento específico Bird do módulo _bird.
+from _floor import Floor # Importa um elemento específico Floor do módulo _floor. 
+from _pipe import Pipe # Importa um elemento específico Pipe do módulo _pipe.
 
 IMG_BACKGROUND =  pygame.transform.scale2x(pygame.image.load(os.path.join('assets/images', 'bg.png')))
 
@@ -15,6 +15,7 @@ FONT_SCORE = pygame.font.SysFont('arial', 50)
 
 
 def draw_screen(screen, birds, pipes, floor, points):
+    # Desenha a tela do game
     screen.blit(IMG_BACKGROUND, (0, 0))
     for bird in birds:
         bird.draw(screen)
@@ -28,6 +29,7 @@ def draw_screen(screen, birds, pipes, floor, points):
 
 
 def main():
+    #Funcção principal que execulta o jogo
     birds = [Bird(230, 350)]
     floor = Floor(730)
     pipes = [Pipe(700)]
